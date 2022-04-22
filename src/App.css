@@ -1,0 +1,35 @@
+.AppContainer{
+  margin: auto;
+  width: 30%;
+  height:30%;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.AppContent {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.changeName, .btnSubmit {
+  padding: 2rem;
+  margin: 1rem;
+  position: sticky;
+}
+
+.history {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
